@@ -12,7 +12,9 @@ public class myAddTwoNumbers {
             ListNode next;
             ListNode(int x) { val = x; }
         }
-
+    /* Time Complexity: O(max(l1.length, l2.length))
+     * Space Complexity: O(max(l1.length, l2.length))
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode ret = new ListNode(0);
         ListNode p1=l1, p2=l2, curr=ret;
